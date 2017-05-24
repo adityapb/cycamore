@@ -1,4 +1,4 @@
-FROM cyclus/cyclus:latest
+FROM adityapb/cyclus:bw-env
 
 COPY . /cycamore
 WORKDIR /cycamore
